@@ -39,7 +39,8 @@
             align-items: flex-end
             justify-content: center
             padding-bottom: 40px
-
+            left: 50%
+            transform: translateX(-50%)
 
             span
                 font-size: 23px
@@ -107,3 +108,19 @@
     line-height: 50px
     span
         color: #2575e7
+
+@media (max-width: 1160px)
+    .price__items
+        flex-wrap: wrap
+    .price-item
+        max-width: 48%
+        margin-bottom: 50px
+
+@media (max-width: 740px)
+    .price
+        padding: 50px 0 80px
+    .price-item
+        max-width: 100%
+    .price-item__title
+        font-size: 38px
+        line-height: 42px
