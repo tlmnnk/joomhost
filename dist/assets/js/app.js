@@ -3010,8 +3010,8 @@
 
 }));
 
-// $(function(){
-//
+$(function(){
+
     $('.reviews__slider').slick({
         infinite: true,
         arrows: false,
@@ -3020,11 +3020,8 @@
         autoplay: true,
         dots: true
         });
-//
-//     $('.slider-dots').slick({
-//         slidesToShow: 4,
-//         slidesToScroll: 4,
-//         asNavFor: '.header__slider'
-//
-//     });
-// });
+
+    $('.menu__btn').on('click', function(){
+        $('.menu__list').slideToggle();
+    });
+});
