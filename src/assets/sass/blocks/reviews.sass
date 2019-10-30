@@ -1,1 +1,58 @@
 .reviews
+    padding: 120px 0
+    background-color: #fafafa
+    &__slider
+        margin-top: 160px
+        .slick-list
+            margin: 0 -50px
+        .slick-track
+            margin: 0 50px
+        .slick-dots
+            list-style: none
+            display: flex
+            justify-content: center
+            margin-top: 50px
+            li
+                margin: 0 8px
+            button
+                font-size: 0
+                width: 10px
+                height: 10px
+                border-radius: 50%
+                padding: 0
+                border: none
+                background-color: #267ae9
+                outline: none
+            .slick-active
+                button
+                    background-color: #fff
+                    border: 2px solid #267ae9
+
+    &-box
+        display: flex
+
+        &__images
+            display: flex
+            background-color: #267ae9
+            width: 190px
+            min-height: 350px
+            align-items: center
+            justify-content: center
+        &__content
+            padding: 0 20px
+            background-color: #fff
+            display: flex
+            flex-direction: column
+            justify-content: center
+            width: 330px
+        &__text
+            color: #4a6385
+            font-size: 16px
+            font-weight: 400
+            line-height: 26px
+        &__author
+            margin-top: 38px
+            span
+                color: #267ae9
+                font-family: 'Roboto', sans-serif
+                font-weight: 700

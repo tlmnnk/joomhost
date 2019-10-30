@@ -3012,13 +3012,14 @@
 
 // $(function(){
 //
-//     $('.header__slider').slick({
-//         infinite: true,
-//         fade: true,
-//         asNavFor: '.slider-dots',
-//         prevArrow: '<img class="slider-arrows slider-arrows__left" src="assets/img/arrow-left.svg">',
-//         nextArrow: '<img class="slider-arrows slider-arrows__right" src="assets/img/arrow-right.svg">'
-//     });
+    $('.reviews__slider').slick({
+        infinite: true,
+        arrows: false,
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        autoplay: true,
+        dots: true
+        });
 //
 //     $('.slider-dots').slick({
 //         slidesToShow: 4,
